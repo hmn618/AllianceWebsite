@@ -1,0 +1,16 @@
+﻿#experience{
+	margin-left: 200px;
+}
+h2{
+	margin:10px 0 10px 0; 
+}
+.description{
+	border:1px solid #000;
+	width:500px;
+	resize:none;
+}
+#submit{
+	width:80px;
+	font-size:20px;
+	margin:50px 0 0 300px;
+}

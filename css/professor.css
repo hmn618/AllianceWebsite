@@ -1,0 +1,212 @@
+/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body{
+font-size:12px;
+}
+ .top {
+	width: 100%;
+	height: 62px;
+	background:url(../img/top-bg.png) repeat-x;
+}
+.hh{
+	color:#CACAC7;
+	float:right;
+	margin:30px 50px 10px 0;
+	text-shadow: 1px 1px #000;
+	font-size:16px;
+}
+.exit{
+	float:right;
+	margin:30px 5px 10px 0;
+}
+
+
+.main{
+	width:100%;
+	min-width:1336px;
+	height:665px;
+	background:#E7E5F2;
+	}
+.main_left{
+	width:20.7%;
+	min_width:277px;
+	height:665px;
+	background:#F7F7F7;
+	float:left;
+	}
+.main_right{
+	width:79%;
+	height:407px;
+	float:left;
+	}
+.right_top{
+	height:30px;
+	line-height:30px;
+	font-family:Microsoft YahHei;
+	font-size:16px;
+	padding-left:20px;
+	padding-top:10px;
+	}
+.top_img{
+	float:left;
+	margin-top:5px;
+	}
+.top_text{
+	float:left;
+	margin-top:3px;
+	margin-left:5px;
+	}
+.right_bottom{
+	padding:30px 50px;
+	height:160px;
+	}
+.content{
+	width:101%;
+	height:530px;
+	border:1px solid #C9C9C9;
+	background:#F0EFF4 ;
+	border-radius:5px; 
+	}
+.content_top{
+	height:30px;
+	border-bottom:1px solid #E4E4E4;
+	padding:10px 30px;
+	}
+.top_left,.top_right{
+	
+	text-align:center;
+	float:left;
+	font-size:14px;
+	font-family:黑体;
+	width:87px;
+	height:41px;
+	padding-top:5px;
+	margin-right:20px;
+	
+}
+.top_left{
+	
+	background:url(../img/backstage/back-button-blue.png) no-repeat;
+	color:#FFFFFF;
+	}
+.top_right{
+	background:url(../img/backstage/back-button-gray.png) no-repeat;
+	color:#000000;
+	}
+.btn{
+	height:30px;
+	padding:0 20px;
+	}
+.button_1,.button_2{
+	float:right;
+	background:url(../img/backstage/main-button.png) no-repeat;
+	width:92px;
+	height:37px;
+	margin-right:20px;
+	text-align:center;
+	font-size:14px;
+	font-family:Microsoft Yahei;
+	padding-top:8px;
+	color:#FFFFFF;
+	}
+.content_bottom{
+	
+	height:380px;
+	font-family:黑体;
+	padding:10px 30px;
+	}
+.bottom_left{
+	width:852px;
+	height:400px;
+	padding:10px 30px;
+	font-size:14px;
+	font-family: Microsoft Yahei;
+	float:left;
+	 border-width:2px 1px 1px 2px;
+    border-style:solid;
+    border-color: #BCBBBF #DDDDDE #BCBBBF #C9C9C9;
+
+	}
+.bottom_left input{
+	background:#FFFFFF;
+	height:15px;
+	width:15px;
+	}
+.bottom_btn{
+	width:92px;
+	height:30px;
+	background:url(../img/backstage/main-button.png);
+	text-align:center;
+	font-size:14px;
+	font-family:黑体;
+	margin:5px 0px 7px 0px;
+	padding-top:7px;
+	color:#FFFFFF;
+	}
+.page{
+	margin-bottom:10px;
+	}
+.page1{
+	
+	margin-top:10px;
+	}
+	.bottom_btn1{
+	width:71px;
+	height:30px;
+	background:url(../img/admin-button.png) no-repeat;
+	text-align:center;
+	font-size:14px;
+	font-family:黑体;
+	margin:15px 0px 7px 0px;
+	padding-top:5px;
+	color:#FFFFFF;
+	}
+.footer{
+	width: 100%;
+	height: 57px;
+	background: url(../img/top-bg.png) repeat-x;
+	float:left;
+	}
+.footer_content{
+	color:#C0C1C3;
+	font-family:Microsoft Yahei;
+	font-size:12px;
+	line-height:57px;
+	text-align:center;
+	}
+table{
+   
+    table-layout:fixed;/* 只有定义了表格的布局算法为fixed，下面td的定义才能起作用。 */
+}
+.result-tab{border-collapse:collapse;border: 1px solid #B6B6B6;-webkit-box-shadow: #999 0px 0px 5px;
+	-moz-box-shadow: #999 0px 0px 5px;
+	box-shadow: #999 0px 0px 5px; margin-top:10px;}
+.result-tab th{font-weight: normal;font-size: 16px;text-align: left; background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#EEEEEE), to(#E2E2E2));color:#333333;}
+.result-tab th{padding:5px;border-bottom: 1px solid #B6B6B6;border-right: 1px solid #B6B6B6;  background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#EEEEEE), to(#E2E2E2));}
+.result-tab td{padding:5px;border-bottom: 1px solid #B6B6B6;border-right: 1px solid #B6B6B6;font-weight:bold; }
+.result-tab tr{line-height:25px; background:#FFFFFF;}
+.result-tab th,.result-tab td{text-align: center;  }
+.result-tab tr:nth-child(odd){background:#EDEDED;}
+.lie_1{  width:100%;
+    word-break:keep-all;/* 不换行 */
+    white-space:nowrap;/* 不换行 */
+    overflow:hidden;/* 内容超出宽度时隐藏超出部分的内容 */
+    text-overflow:ellipsis;/* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+	color:#424BFB;
+	font-family:Microsoft Yahei;}
+
+.top_left a{
+	text-decoration:none;
+	color:#FFFFFF;
+	
+	}
+.top_right a{
+	text-decoration:none;
+	color:#000000;
+	
+	}
+	

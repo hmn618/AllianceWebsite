@@ -1,0 +1,64 @@
+@media only screen and (min-width: 0px) and (max-width: 1024px) {
+	.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+*{
+	margin:0;
+	padding:0;
+	font-family: "黑体";
+}
+
+body{
+	width:100%;
+	background-color:#F0EFF4;
+}
+#topic_word{
+	width:100%;
+	color:#0C3690;
+	font-size:16px;
+	border-top:20px solid #DEDFDA;
+	border-bottom:20px solid #DEDFDA;
+	box-sizing: border-box;
+}
+#topic{
+	background-color: #DEDFDA;
+	width:100%;
+	text-align: center;
+	padding:50px auto;
+	box-sizing: border-box;
+}
+#top{
+	width:100%;
+	margin-top: 20px;
+}
+#info{
+	width:90%;
+	font-size:12px;
+	margin:5px auto;
+	background-color:#F5F5F5 ;
+	box-shadow: 1px 1px 1px #CDCDCF;
+	border-left:5px solid #3A7AA8;
+	border-radius: 5px;
+	padding-left:10px;
+	box-sizing: border-box;
+	word-break:break-all; /*支持IE，chrome，FF不支持*/
+　　  word-wrap:break-word;/*支持IE，chrome，FF*/
+}
+#under{
+	width:100%;
+	padding:3px 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	font-size:12px;
+	border-bottom: 1px solid #CECED0 ;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+#main{
+	display:none;
+}
+}
+

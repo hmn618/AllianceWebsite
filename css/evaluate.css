@@ -1,0 +1,97 @@
+.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+body{
+	background-color: #E7E5F2;
+	z-index:0;
+	font-family: "黑体";
+}
+h1{
+	float:left;
+	font-size:18px;
+	font-weight:bold;
+	width:950px;
+	margin:10px 0 10px 5px;
+	border-left:5px solid #3579CD;
+	border-bottom: 1px solid #E5E5E5;
+}
+.leftNav{
+	position: absolute;
+	top:0;
+	left:0;
+	height:940px;
+	z-index:100;
+	width:280px;
+	background-color:#F7F7F7;
+}
+/*--------------bread nav------------*/
+.index_pic{
+	float:left;
+	margin-right:5px;
+}
+.bread{
+	float:left;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+.breadNav{
+	margin-left:20px;
+	float:left;
+}
+
+/*---------------evaluate------------*/
+#container{
+	margin:20px 0 0 280px;
+	z-index: 0;
+}
+#evaluate{
+	width:980px;
+	border:1px solid #BBBABE;
+	border-radius: 5px;
+	background-color:#F0F0F3 ; 
+	margin:40px 0 0 30px;
+}
+.head1{
+	width:950px;
+	margin-left:20px;
+	
+}
+.table1{
+	margin:10px 0 10px 30px;
+}
+.row{
+	width:960px;
+}
+.check{
+	margin:5px 5px 5px 0;
+}
+.checker{
+	font-size:14px;
+	font-weight:bold;
+	margin:0px 15px 0 0;
+}
+.inputContent{
+	border-top:2px solid #BCBCBC;
+	border-radius:5px;
+	width:400px;
+	height:30px;
+}
+.btn{
+	width:70px;
+	height:30px;
+	color:#fff;
+	border-radius:5px;
+	background-image: url(../img/admin-button.png);
+	margin:20px 0 100px 50px;
+}
+#reset{
+	margin-left:20px;
+}
+.rr{
+	border-bottom: 2px solid #D0D0D2;
+}

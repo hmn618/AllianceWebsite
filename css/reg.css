@@ -1,0 +1,126 @@
+﻿/* CSS Document */
+
+* {
+	padding: 0;
+	margin: 0;
+}
+ .top {
+	width: 100%;
+	height: 57px;
+	background: url(../img/top-bg.png) repeat-x;
+}
+.top_content{
+	color:#C0C1C3;
+	font-family:微软雅黑;
+	font-size:16px;
+	line-height:57px;
+	margin-left:30px;
+	}
+.main{
+	width:100%;
+	height:650px;
+	background:#F7F7F7;
+	}
+.main_top{
+	height:55px;
+	padding:50px 33%;
+}
+.main_top img{
+	vertical-align: middle;
+	}
+.main_bottom{
+	padding:0 37%;
+	}
+.reg{
+	width:351px;
+	height:502px;
+	
+	margin:0 auto;
+	
+	}
+.reg_title{
+	width:106px;
+	height:20px;
+	padding:15px 120px;
+	background-color:#E3E3E3;
+	border-radius:5px;
+	border-bottom:1px solid #ACACAC;
+	-webkit-box-shadow: #999 0px 0px 5px;
+	-moz-box-shadow: #999 0px 0px 5px;
+	box-shadow: #999 0px 0px 5px;
+	
+	
+	}
+.reg_title img{
+	vertical-align: middle;
+
+}
+.reg_title span{
+	font-family:微软雅黑;
+	font-size:19px;
+	color:#346EA1;
+	font-weight:bold;
+	}
+.reg_content{
+	width:250px;
+	padding:20px 60px;
+		}
+.reg_bottom{
+	margin-left:100px;
+	padding-top:10px;
+	height:50px;
+	width:141px;
+	text-align:center;
+	background:url(../img/button-bg.png) no-repeat;
+	}
+.reg_bottom span{
+	font-family:微软雅黑;
+	}
+.reg_content input{
+border-radius:5px; 
+height:30px; 
+width:230px;
+margin-top:15px;
+font:normal 14px/24px
+}
+::-webkit-input-placeholder {
+	color: #69A9E6;
+	font-family:微软雅黑;
+	padding-left:10px;
+}
+.footer{
+	width: 100%;
+	height: 57px;
+	background: url(../img/top-bg.png) repeat-x;
+	}
+.footer_bind{
+	width: 100%;
+	height: 57px;
+	background: url(../img/top-bg.png) repeat-x;
+	position:absolute;
+	bottom:0px;
+	}
+.footer_content{
+	color:#C0C1C3;
+	font-family:微软雅黑;
+	font-size:12px;
+	line-height:57px;
+	text-align:center;
+	}
+.mycode{
+    display: inline-block;
+    width: 80px;
+	height: 40px;
+    vertical-align: middle;
+	}
+.two{
+	background-color:#E3E3E3;
+	border-radius:5px;
+	margin-bottom:20px;
+	border: 1px solid #ACACAC;
+	-webkit-box-shadow: #999 0px 0px 5px;
+	-moz-box-shadow: #999 0px 0px 5px;
+	box-shadow: #999 0px 0px 5px;
+	width:347px;
+	
+}

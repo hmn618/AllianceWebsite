@@ -1,0 +1,38 @@
+﻿.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+#experience{
+	margin-left: 200px;
+}
+h2{
+	margin:10px 0 10px 0; 
+}
+.id_div{
+	width:350px;
+	margin:5px;
+}
+#submit{
+	width:80px;
+	font-size:20px;
+	margin:50px 0 0 300px;
+}
+.labelname{
+	width:80px;
+	margin-right:10px;
+	float:left;
+	font-size:20px;
+}
+.label_in{
+	float:left;
+	border:1px solid #000;
+	width:250px;
+	height:20px;
+}
+.description{
+	border:1px solid #000;
+	width:500px;
+	resize:none;
+}

@@ -1,0 +1,31 @@
+﻿.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+#register{
+	margin-left:200px;
+	width:320px;
+}
+.name{
+	float:left;
+}
+.input_text{
+	border:1px solid #000;
+	margin-left:10px;
+	float:left;
+}
+.n_div{
+	margin-top:30px;
+	margin-bottom:10px;
+}
+#submit{
+	width:50px;
+	font-size:15px;
+	border:1px solid #000;
+	color:#000;
+	float:left;
+	margin-left:200px;
+	margin-top:20px;
+}

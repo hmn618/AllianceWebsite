@@ -1,0 +1,81 @@
+.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+*{
+	margin:0;
+	padding:0;
+	font-family: "微软雅黑";
+}
+#main{
+	width: 100%;
+}
+#expert{
+	width: 70%;
+	min-height: 1200px;
+	min-width: 1240px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 5%;
+	background-color: #F1F1F2;
+	border-radius: 10px;
+	border: 1px solid #C0C1C3;
+}
+#top{
+	float: left;
+	width:93% ;
+	height: 185px;
+	margin-left: 45px;
+	margin-top: 30px;
+	padding-bottom:21px;
+	border-bottom: 3px solid #0A5DA2;
+}
+#top img{
+	width: 130px;
+     height: 160px;
+     float: left;
+     margin-top: 13px;
+}
+#text{
+	float: left;
+	width: ;
+	margin-left: 25px;
+}
+#text p{
+	float:left;
+	clear: left;
+}
+#name{
+	font-size: 30px;
+}
+#one{
+	margin-top: 10px;
+}
+#two{
+	margin-top: 7px;
+}
+#job{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 950px;
+}
+#area{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 950px;
+}
+#bottom{
+	float: left;
+	width:92% ;
+	margin-left: 45px;
+	margin-top: 22px;
+}
+#three{
+	font-size: 23px;
+	color: #4275AD;
+}
+#content{
+	margin-top: 20px;
+}

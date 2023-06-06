@@ -1,0 +1,53 @@
+.clearfix:before,.clearfix:after{
+       content:"";
+	   display:table;
+	   }
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+*{
+	margin:0;
+	padding:0;
+	font-family: "黑体";
+}
+body{
+	background-color: #fff;
+}
+#content{
+	width:100%;
+	margin-bottom: 50px;
+	background-color: #fff;
+}
+h1{
+	font-size: 20px;
+	font-weight: bold;
+	float:left;
+	height:25px;
+	line-height:25px;
+	
+}
+#contact{
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+	height:25px;
+	line-height:25px;
+}
+.description{
+	font-size: 14px;
+	float:left;
+	line-height:20px;
+}
+.icon{
+	width:10px;
+	height:10px;
+	margin-top: 5px;
+	margin-right:10px;
+	float:left;
+}
+.row{
+	width:340px;
+	margin:3px auto;
+}
+#row0{
+	margin-bottom: 20px;
+}
