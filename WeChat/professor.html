@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <title>专家入驻</title>
+    <link rel="stylesheet" type="text/css" href="css/weixin/releaseGoods.css"/>
+    <link href="css/weixin/uploadImg.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/weixin/footer.css"/>
+
+    <script type="text/javascript" src="js/common/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/common/jquery.validate-1.13.1.js"></script>
+    <script type="text/javascript" src="js/business/MsgBox.js"></script>
+    <!--<script type="text/javascript" src="js/business/uploadImg.js"></script>-->
+    <script type="text/javascript" src="js/business/jquery.ajaxUpload.js"></script>
+    <script type="text/javascript" src="js/common/binaryajax.js"></script>
+    <script type="text/javascript" src="js/common/exif.js"></script>
+    <script type="text/javascript" src="js/common/rotate.js"></script>
+    <script type="text/javascript" src="js/md5.js"></script>
+    <!-- 微信端添加入门信息 -->
+    <script type="text/javascript" src="js/jquery.form.js"></script>
+    <script type="text/javascript" src="js/add_professor.js"></script>
+</head>
+<body>
+<div class="allContainer">
+    <div class="title">
+        <span>中关村四方现代服务产业技术创新战略</span><br/>
+        <span>联盟专家信息录入表</span>
+    </div>
+    <div class="basic">
+        <span>账号信息</span>
+    </div>
+    <div class="subContainer" style="margin-top: 5px;">
+        <div class="infoName"><p><span>*</span>&nbsp;帐号名称：</p></div>
+        <input name="username" id="username" type="text" required autofocus="on"/>
+        <hr/>
+        <div class="infoName"><p><span>*</span>&nbsp;帐号昵称：</p></div>
+        <input name="nickname" id="nickname" type="text" required autofocus="on"/>
+        <hr/>
+        <div class="infoName"><p><span>*</span>&nbsp;邮　　箱：</p></div>
+        <input name="email" id="email" type="text" required autofocus="on"/>
+        <hr/>
+        <div class="infoName"><p><span>*</span>&nbsp;密　　码：</p></div>
+        <input name="password" id="password" type="password" required autofocus="on"/>
+        <hr/>
+    </div>
+
+    <div class="basic">
+        <span>基本信息</span>
+    </div>
+    <div class="subContainer">
+        <div class="picName">
+            <p><span>*</span>&nbsp;照片</p>
+        </div>
+        <br>
+        <div style="margin-top: 18px;">
+            <div id="album" style="clear: left;">
+                <div id="photoset" style="text-align:center;margin:0 auto;">
+                    <img id="photo_in" name="field8" border=0 src='../upload/img/default_img.png' style="width: 140px;height: 180px;margin: 0 auto;"><br>
+                    <input style="margin: 0 auto;margin-top: 5px;" type="button" class="btn" id="photoCover" value="选择照片" onClick="javascript:clickImgUp();" />
+                </div>
+            </div>
+            <input type="file" id="photoUpload" name="photoUpload" style="display: none;"/>
+        </div>
+    </div>
+
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;姓名</p></div>
+        <input name="name" id="name" type="text" required autofocus="on"/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;性别</p></div>
+        <input type="radio" checked="checked" name="sex" value="男" class="radio"/>男
+        <input type="radio" name="sex" value="女" class="radio"/>女
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;出生日期</p></div>
+        <input name="birthday" id="birthday" type="text" required/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p>&nbsp;&nbsp;身份证号</p></div>
+        <input name="cardnum" id="cardnum" type="text" required/>
+    </div>
+    <hr/>
+    <div class="work">
+        <span>工作经历</span>
+    </div>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;职称</p></div>
+        <input name="title" id="title" type="text" required autofocus="on"/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;单位名称</p></div>
+        <input name="workunit" id="workunit" type="text" required autofocus="on"/>
+    </div>
+    <hr/>
+
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;单位类型</p></div>
+        <input name="unittype" id="unittype" type="text" required/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p>&nbsp;&nbsp;职务</p></div>
+        <input name="profession" id="profession" type="text" required/>
+    </div>
+    <hr/>
+    <div class="work">
+        <span>学习经历</span>
+    </div>
+    <div class="subContainer">
+        <div class="infoName"><p>&nbsp;&nbsp;最终学位</p></div>
+        <input name="degree" id="degree" type="text" required/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p>&nbsp;&nbsp;毕业院校</p></div>
+        <input name="school" id="school" type="text" required/>
+    </div>
+    <hr/>
+
+    <div class="work">
+        <span>联系方式</span>
+    </div>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;手机</p></div>
+        <input name="mobile" id="mobile" type="text" required autofocus="on"/>
+    </div>
+    <hr/>
+
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;通信地址</p></div>
+        <input name="addr" id="addr" type="text" required/>
+    </div>
+    <hr/>
+    <div class="subContainer">
+        <div class="infoName"><p><span>*</span>&nbsp;邮政编码</p></div>
+        <input name="post" id="post" type="text" required/>
+    </div>
+    <hr/>
+
+    <!-- individual_member_work（个人会员工作信息表） -->
+    <div class="work">
+        <span>研究/工作领域</span>
+    </div>
+
+    <div class="subContainer">
+        <textarea name="searchcontent" id="searchcontent"></textarea>
+    </div>
+    <div class="work">
+        <span>专业特长/主要业绩</span>
+    </div>
+
+    <div class="subContainer">
+        <textarea name="contribute" id="contribute"></textarea>
+    </div>
+
+    <!-- individual_member_stdy（个人会员科研信息表） -->
+    <div class="work">
+        <span>社会/学术兼职</span>
+    </div>
+
+    <div class="subContainer">
+        <textarea name="social_academic_job" id="social_academic_job"></textarea>
+    </div>
+
+    <div id="btngroup">
+        <button class="btn" id="submit" type="button">提交</button>
+        <button class="btn" id="reset" type="button">重置</button>
+    </div>
+</div>
+<footer>
+    <p class="ff">免责声明 | 备案号：京ICP备15000234号-1 Copyright&copy;中关村四方现代服务产业技术创新战略联盟 </p>
+</footer>
+</body>
+</html>

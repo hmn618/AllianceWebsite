@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"/>
+		<meta content="telephone=no" name="format-detection" /> 
+		<title>企业会员</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/weixin/releaseGoods.css" />
+		<link href="css/weixin/uploadImg.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/weixin/footer.css" />
+		
+		
+		<script type="text/javascript" src="js/common/jquery-2.1.4.min.js"></script>
+		<script type="text/javascript" src="js/common/jquery.validate-1.13.1.js"></script>
+		<script type="text/javascript" src="js/business/MsgBox.js"></script>
+		<script type="text/javascript" src="js/business/uploadImg.js"></script>
+  		<script type="text/javascript" src="js/business/jquery.ajaxUpload.js"></script>
+		<script type="text/javascript" src="js/business/releaseGoods.js"></script>
+		<script type="text/javascript" src="js/common/binaryajax.js"></script>
+    	<script type="text/javascript" src="js/common/exif.js"></script>
+    	<script type="text/javascript" src="js/common/rotate.js"></script>
+		
+	</head>
+	<body>
+		<div class="allContainer">
+			<div class="title">
+				<span>中关村四方现代服务产业技术创新战略</span><br/>
+				<span>联盟企业会员信息表</span>
+			</div>
+			<div class="basic">
+				<span>基本信息</span>
+			</div>
+			<form class="goodsInfo" method="post" enctype="multipart/form-data">
+				<div class="subContainer">
+				    <div class="picName">
+					    <p><span>*</span>&nbsp;Logo</p>
+				    </div>
+				    <!--图片上传-->
+					<div id="uploadDivBox">
+						<div class="uploadImg">
+					
+							<div id="imageDiv">
+								
+							 	<ul class="imgul">
+							 		<div  class="file_btn"><img src="img/business/upload.png"></div>
+							 	</ul>
+							 	
+							 	<div class="upload_div">
+								<input type="file" onChange="preImg(this.id)" accept="image/jpeg,image/png" class="file" name="uploadImg" id="imgOne" />
+								</div>
+							</div>
+						</div>
+					</div>
+			 		<div class="btn_div">
+					 <input type="button" onClick="noCut()" class="upload_btn_nocut" value="上传" />
+					 </div><!--图片上传end-->
+				</div>
+			
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;单位名称</p></div>
+					<input name="name" id="Name" type="text"  required autofocus="on" />
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;通讯地址</p></div>
+					<input name="address" id="address" type="text"  required autofocus="on" />
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;单位性质</p></div>
+					<input type="radio" checked="checked" name="class" value="c1" class="radio"/>企业
+					<input type="radio" name="class" value="c2" class="radio"/>科研院所
+					<input type="radio" name="class" value="c3" class="radio"/>高等院校
+					<input type="radio" name="class" value="c4" class="radio"/>其它
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;申请成员等级</p></div>
+					<input type="radio" checked="checked" name="rank" value="r1" class="radio"/>注册成员
+					<input type="radio" name="rank" value="r2" class="radio"/>理事成员
+				
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;主页</p></div>
+					<input name="index" id="index" type="text"  required/>
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;贵单位所属行业</p></div>
+					<input name="industry" id="industry" type="text"  required/>
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;邮编</p></div>
+					<input name="postCode" id="postCode" type="text"  required/>
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;电话</p></div>
+					<input name="phone" id="phone" type="text"  required/>
+				</div>
+				<hr />
+				<div class="subContainer">
+					<div class="infoName"><p><span>*</span>&nbsp;传真</p></div>
+					<input name="fax" id="fax" type="text"  required/>
+				</div>
+				<hr />
+				
+			<div id="btngroup">
+					<button class="btn" id="submit" type="button">提交</button>
+					<button class="btn" id="reset" type="button">重置</button>
+				</div>
+		</div>
+		<footer>
+			<p class="ff">免责声明 | 备案号：京ICP备15000234号-1 Copyright&copy;中关村四方现代服务产业技术创新战略联盟 </p>
+		</footer>
+	</body>
+</html>

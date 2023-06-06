@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.control-group {
+	width: 100%;
+}
+.div_from_aoto_2 {
+	margin-top: 100px;
+}
+
+.loginform {
+	padding-top: 30px;
+}
+.loginform .laber_from {
+	text-align: center;
+}
+
+.btn_register_control, .btn_reset_control {
+	width: 96px;
+	float: left;
+	margin-top: -5px;
+	margin-right: 5px;
+}

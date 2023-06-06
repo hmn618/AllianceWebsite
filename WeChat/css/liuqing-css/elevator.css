@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+.elevator {
+	position: fixed;
+	right: 15px;
+	bottom: 260px;
+	z-index: 1030;
+}
+.elevator .elevator-weixin, .elevator-top {
+	display: block;
+	position: relative;
+	margin: 1px 0;
+	outline: none;
+	height: 52px;
+	width: 52px;
+	-webkit-transition: background-position 0.15s;
+	-moz-transition: background-position 0.15s;
+	transition: background-position 0.15s;
+	background: url(../../img/imooc.png) no-repeat;
+}
+
+.elevator .elevator-qq {
+	display: block;
+	position: relative;
+	margin: 1px 0;
+	outline: none;
+	height: 52px;
+	width: 55px;
+	-webkit-transition: background-position 0.15s;
+	-moz-transition: background-position 0.15s;
+	transition: background-position 0.15s;
+	background: url(../../img/qq-chat.png) no-repeat;
+}
+.elevator .elevator-qq {
+	background-position: 0 0;
+}
+.elevator .elevator-qq:hover {
+	background-position: 0 -52px;
+}
+
+.elevator .elevator-weixin-box {
+	position: absolute;
+	/* display: none; */
+	width: 193px;
+	height: 230px;
+	bottom: -10px;
+	right: 52px;
+	-webkit-transition: opacity 0.25s, transform .3s;
+	-moz-transition: opacity 0.25s, transform .3s;
+	transition: opacity 0.25s, transform .3s;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	max-width: 0;
+	-webkit-transform: scale(0.01);
+	-ms-transform: scale(0.01);
+	transform: scale(0.01);
+	-webkit-transform-origin: 100% 95%;
+	-ms-transform-origin: 100% 95%;
+	transform-origin: 100% 95%;
+	background: url(../../img/wechatcode.png) no-repeat 0 0;
+	box-shadow: 5px 5px 2px #888888;
+}
+.elevator .elevator-weixin {
+	background-position: 0 -860px;
+}
+.elevator .elevator-weixin:hover {
+	background-position: 0 -922px;
+}
+.elevator .elevator-weixin:hover .elevator-weixin-box {
+	/* max-width: none; */
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	max-width: none;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+
+.elevator .elevator-top {
+	background-position: 0 -674px;
+}
+.elevator .elevator-top:hover {
+	background-position: 0 -736px;
+}

@@ -1,0 +1,126 @@
+
+#uploadDivBox {
+	width: 60%;
+	background: white;
+	float:left;
+	margin-top:3px;
+}
+
+.uploadImg {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	padding-top: 3px;
+	padding-bottom:13px;
+	
+}
+
+.upload_div{}
+.file_btn{
+	width: 100%;
+	height: 5rem;
+	box-sizing: border-box;
+	float: left;
+	display: block;
+}
+.file_btn img{
+	width: 65%;
+	max-height: 5rem;
+	/*margin: auto;*/
+	margin-top: 0.3rem;
+}
+.file_btn p{
+	padding-top: 0.2em;
+	font-size: 0.8em;
+	color: #333333;
+}
+#imageDiv {
+	width: 100%;
+	overflow:hidden;
+	position:relative;
+	display: inline-block;
+	text-align:center;
+	vertical-align:middle;
+	padding-top: 0.5em;
+}
+ul,li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.imgul{
+	width: 50%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	
+}
+.img-display{
+	width: 100%;
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	height: 8em;
+	margin-top: 0;
+	position: relative;
+}
+.img-display img{
+	width: 100%;
+	margin-top: 0.5rem;
+	height: 100%;
+	margin: auto;
+}
+.target{
+	
+}
+.imgdel{
+	position: absolute;
+	right:15%;
+	top: 0;
+	width: 1.2rem;
+	height: 1.2rem;
+	background: url(../img/business/del.png) no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+.imgdel img{
+	width: 10px;
+}
+.btn_div {
+	display: none;
+	text-align: center;
+	margin-top: 10px;
+}
+#imgOne{display: none;}
+.upload_btn_ok {
+	border: none;
+	cursor: pointer;
+	background: #F45949;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 70px;
+	height: 29px;
+	margin-left: 15px;
+}
+.upload_btn_cancel {
+	border: none;
+	cursor: pointer;
+	background: #a5a5a5;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 70px;
+	height: 29px;
+	margin-left: 15px;
+}
+.upload_btn_nocut{
+	border: none;
+	cursor: pointer;
+	background: #1AB1AA;
+	font-weight: 200;
+	font-size: 14px;
+	color: #FFFFFF;
+	width: 70px;
+	height: 29px;
+}

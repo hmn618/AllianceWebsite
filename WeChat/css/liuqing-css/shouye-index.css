@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+
+a {
+	background-color: transparent;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+#myScrollspy ul.left-nav {
+	width: 15%;
+	margin-top: 5px;
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+#myScrollspy ul.left-nav li {
+	margin: 0;
+	border-top: 1px solid #ddd;
+}
+#myScrollspy ul.left-nav li:first-child {
+	border-top: none;
+}
+#myScrollspy ul.left-nav li a {
+	margin: 0;
+	padding: 8px 16px;
+	border-radius: 0;
+}
+#myScrollspy ul.left-nav li.active a, ul.left-nav li.active a:hover {
+	color: #fff;
+	background: #0088cc;
+	border: 1px solid #0088cc;
+}
+#myScrollspy ul.nav-tabs li:first-child a {
+	border-radius: 4px 4px 0 0;
+}
+#myScrollspy ul.nav-tabs li:last-child a {
+	border-radius: 0 0 4px 4px;
+}
+#myScrollspy ul.nav-tabs.affix {
+	top: 35%; /* Set the top position of pinned element */
+}
+
+/*行业资讯*/
+.content-wrapper {
+	background: #fff none repeat scroll 0 0 padding-box;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #999;
+	margin: 10px 5px;
+	padding: 15px 10px;
+	text-align: center;
+}
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+
+.right-content {
+	margin-top: 40px;
+}
+
+.tongzhi-content a {
+	font-size: 16px;
+	color: #708090;
+}
+
+/*成员*/
+.chengyuan .tab-content img {
+	width: 200px;
+	height: 200px;
+	margin-top: 20px;
+}
+.chengyuan .tab-content .lead {
+	font-size: 18px;
+}
+
+.chengyuan .chengyuan-content .row {
+	margin-top: 10px;
+}
+.chengyuan .chengyuan-content h3 {
+	margin-top: 50px;
+}
+.chengyuan .chengyuan-content .col-md-4 {
+	text-align: center;
+}
+
+/*友情链接*/
+.friendly-link {
+	margin-top: 40px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+.friendly-link img {
+	width: 260px;
+	height: 40px;
+	margin-bottom: 20px;
+	border: 1px solid #eee;
+	text-align: center;
+	-webkit-box-shadow: 3px 3px 10px #777;
+	box-shadow: 3px 3px 10px #777;
+}

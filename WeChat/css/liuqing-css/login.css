@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+.loginform {
+	padding-top: 40px;
+}
+.loginform .laber_from {
+	text-align: center;
+}
+
+.btn_login_control {
+	width: 96px;
+	margin-left: 2px;
+}
+.code {
+	background-image: url(img/code.jpg);
+	font-family: Arial;
+	font-style: italic;
+	color: #06C;
+	border: 0;
+	padding: 2px 3px;
+	letter-spacing: 3px;
+	font-weight: bolder;
+}
+.unchanged {
+	border: 0;
+}  

@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+.container {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.btn-group {
+	margin-bottom: 20px;	
+}
+.col-sm-4 {
+	margin-top: 5px;
+}
+
+.usericon1 {
+	color: #4169E1;
+	margin-right: -16px;
+	font-size: 20px;
+}
+
+.usericon2 {
+	color: #4169E1;
+	margin-right: 8px;
+	font-size: 18px;
+}
+
+.dropdown button {
+	width: 100%;
+	font-size: 19px;
+}
+
+.dropdown .dropdown-menu p {
+	margin: 15px;
+	font-size: 16px;
+}
